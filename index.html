@@ -581,7 +581,25 @@ body.transitioning {
       </div>
       </div>
 
-    <footer>© 2025 Peelr. All rights reserved.</footer>
+    <footer>
+  <div class="flex justify-center space-x-6 mb-1">
+    <a href="/privacy.html" class="footer-link">Privacy Policy</a>
+    <a href="/terms.html" class="footer-link">Terms of Service</a>
+  </div>
+  © 2025 Peelr. All rights reserved.
+</footer>
+
+<style>
+  .footer-link {
+    font-size: 0.85rem;
+    color: #6b7280;
+    transition: color 0.25s ease, text-shadow 0.25s ease;
+  }
+  .footer-link:hover {
+    color: #10b981;
+    text-shadow: 0 0 6px rgba(16,185,129,0.45);
+  }
+</style>
 
     <script>
       const isMobile = window.innerWidth < 640;
